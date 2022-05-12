@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "restore": {
+    "W:\\Projects\\Ecommerse\\Infrastructure\\Ecommerse.Persistence\\Ecommerse.Persistence.csproj": {}
+  },
+  "projects": {
+    "W:\\Projects\\Ecommerse\\Infrastructure\\Ecommerse.Persistence\\Ecommerse.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "W:\\Projects\\Ecommerse\\Infrastructure\\Ecommerse.Persistence\\Ecommerse.Persistence.csproj",
+        "projectName": "Ecommerse.Persistence",
+        "projectPath": "W:\\Projects\\Ecommerse\\Infrastructure\\Ecommerse.Persistence\\Ecommerse.Persistence.csproj",
+        "packagesPath": "F:\\Users\\Mohammad\\.nuget\\packages\\",
+        "outputPath": "W:\\Projects\\Ecommerse\\Infrastructure\\Ecommerse.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "F:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "F:\\Users\\Mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "F:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "F:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "F:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "F:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
