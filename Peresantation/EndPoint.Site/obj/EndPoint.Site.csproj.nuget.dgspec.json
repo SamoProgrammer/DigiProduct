@@ -1,31 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "W:\\Projects\\Ecommerse\\Peresantation\\EndPoint.Site\\EndPoint.Site.csproj": {}
+    "E:\\MohammadProjects\\DigiProduct\\Peresantation\\EndPoint.Site\\EndPoint.Site.csproj": {}
   },
   "projects": {
-    "W:\\Projects\\Ecommerse\\Peresantation\\EndPoint.Site\\EndPoint.Site.csproj": {
+    "E:\\MohammadProjects\\DigiProduct\\Peresantation\\EndPoint.Site\\EndPoint.Site.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "W:\\Projects\\Ecommerse\\Peresantation\\EndPoint.Site\\EndPoint.Site.csproj",
+        "projectUniqueName": "E:\\MohammadProjects\\DigiProduct\\Peresantation\\EndPoint.Site\\EndPoint.Site.csproj",
         "projectName": "EndPoint.Site",
-        "projectPath": "W:\\Projects\\Ecommerse\\Peresantation\\EndPoint.Site\\EndPoint.Site.csproj",
-        "packagesPath": "F:\\Users\\Mohammad\\.nuget\\packages\\",
-        "outputPath": "W:\\Projects\\Ecommerse\\Peresantation\\EndPoint.Site\\obj\\",
+        "projectPath": "E:\\MohammadProjects\\DigiProduct\\Peresantation\\EndPoint.Site\\EndPoint.Site.csproj",
+        "packagesPath": "C:\\Users\\Samo\\.nuget\\packages\\",
+        "outputPath": "E:\\MohammadProjects\\DigiProduct\\Peresantation\\EndPoint.Site\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "F:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "F:\\Users\\Mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "F:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "F:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Samo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "F:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -43,6 +44,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[7.0.0-preview.4.22259.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -61,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "F:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
